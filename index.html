@@ -1,28 +1,62 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./main.js" defer></script>
+		<title>Frontend Mentor | Advice generator app</title>
+	</head>
+	<body>
+		<main class="main">
+			<h1 class="sr-only main__h1">Advice</h1>
+			<p class="main__p">Advice #177</p>
+			<q class="main__q"
+				>It is easy to sit up and take notice, what's difficult is
+				getting up and taking action.</q
+			>
+			<img
+				src="./images/pattern-divider-mobile.svg"
+				alt="divider pattern"
+				width="295"
+				height="16"
+				class="main__mob" />
+			<img
+				src="./images/pattern-divider-mobile.svg"
+				alt="divider pattern"
+				width="444"
+				height="16"
+				class="main__desk" />
+			<div class="dice">
+				<img
+					src="./images/icon-dice.svg"
+					alt="dice icon"
+					width="24"
+					height="24"
+					class="dice__dice" />
+			</div>
+		</main>
 
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<footer class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Gokul</a>.
+		</footer>
+	</body>
 </html>
